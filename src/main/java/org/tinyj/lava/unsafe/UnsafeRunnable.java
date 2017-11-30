@@ -18,7 +18,6 @@ import static org.tinyj.lava.unsafe.Unsafe.asUnchecked;
  *
  * @param <E> upper limit of thrown exception types
  */
-
 @FunctionalInterface
 public interface UnsafeRunnable<E extends Exception>
     extends Runnable, LavaRunnable<E> {
