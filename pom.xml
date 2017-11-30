@@ -7,6 +7,9 @@
   <version>0-SNAPSHOT</version>
 
   <name>TinyJ Lava-Unsafe</name>
+  <description>
+    Bridge lava-api's functional interfaces to Java's functional interfaces by passing checked exceptions as unchecked.
+  </description>
   <url>https://github.com/tinyj/tinyj-lava-api</url>
   <scm>
     <url>https://github.com/tinyj/tinyj-lava-api</url>

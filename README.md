@@ -3,7 +3,7 @@
 [![build status](https://travis-ci.org/tinyj/tinyj-lava-unsafe.svg?branch=master)](https://travis-ci.org/tinyj/tinyj-lava-unsafe)
 
 Bridge lava-api's functional interfaces to Java's functional interfaces by
-passing checked exceptions unchecked.
+passing checked exceptions as unchecked.
 
 Java's default functional interfaces (i.e. `java.util.function.Function` and
 friends) allow not for raising checked exception, which practically denies us
